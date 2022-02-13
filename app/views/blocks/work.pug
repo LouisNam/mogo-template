@@ -1,0 +1,15 @@
+section.work 
+  .container 
+    +blockBox("What we do", "Some of our work", "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laudantium consequuntur id dolor enim sequi quas, perferendis et distinctio sint vitae corrupti ducimus. Dicta, aspernatur magni non eligendi quisquam quod?")
+  .work-list 
+    .work-column
+      +workItem()
+      +workItem("../images/img-work2.png")
+    .work-column
+      +workItem("../images/img-work3.png", "fa fa-home", "HomePage")
+      +workItem("../images/img-work4.png")
+    .work-column
+      +workItem("../images/img-work5.png", "fa fa-cog", "Frontend Developer", "Lorem isum matcha", "work-item--full")
+    .work-column
+      +workItem("../images/img-work6.png", "fa fa-cog", "Frontend Developer")
+      +workItem("../images/img-work7.png")
